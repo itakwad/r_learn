@@ -1,0 +1,15 @@
+# Learining R
+```{r}
+total <- 0
+for (i in 1:25) {
+  power_i <- i * i
+  total <- total + power_i
+}
+total
+class(cars)
+
+x <- 1:10
+y <- rnorm(x)
+plot(x,y)
+fit <- lm(x,y)
+```
